@@ -6,7 +6,7 @@ import CarrosselControl from "./CarrosselControl";
 
 const Carrossel = () => {
   return (
-    <section role="Carrossel" aria-label="Carrossel">
+    <section role="Carrossel" aria-label="Carrossel" className="pt-70">
       <div id="carrossel" className="carousel slide" data-bs-ride="carousel">
         <IndicadoresCarrossel />
         <div className="carousel-inner">

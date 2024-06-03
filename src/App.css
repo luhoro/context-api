@@ -96,6 +96,10 @@
   background-color: transparent;
 }
 
+.pt-70 {
+  padding-top: 70px;
+}
+
 @media (min-width: 768px) {
   .div-novidades {
     width: 696px;
