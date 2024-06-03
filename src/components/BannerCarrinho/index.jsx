@@ -1,14 +1,16 @@
-import React from "react";
-import bannerCarrinho from "/assets/images/banner-carrinho.png";
+import React from "react"
+import bannerCarrinho from "/assets/images/banner-carrinho.png"
 
 const BannerCarrinho = () => {
   return (
-    <img
-      className="custom-img"
-      src={bannerCarrinho}
-      alt="Imagem de uma sacola de compras"
-    />
-  );
-};
+    <div className="pt-70">
+      <img
+        className="custom-img"
+        src={bannerCarrinho}
+        alt="Imagem de uma sacola de compras"
+      />
+    </div>
+  )
+}
 
-export default BannerCarrinho;
+export default BannerCarrinho

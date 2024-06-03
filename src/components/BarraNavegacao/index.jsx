@@ -14,8 +14,8 @@ const BarraNavegacao = () => {
   const { quantidade } = useCarrinhoContext()
 
   return (
-    <header className="position-fixed z-2 w-100">
-      <nav className="navbar navbar-expand-md bg-black navbar-dark">
+    <header className="position-fixed z-2 w-100 h-70">
+      <nav className="navbar navbar-expand-md bg-black navbar-dark h-100">
         <div className="container-fluid custom-margin">
           <Logo />
           <div className="d-flex flex-row-reverse">
